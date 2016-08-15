@@ -1,0 +1,261 @@
+.row {
+	padding: 0px;
+	margin: 0px;
+}
+#hero{
+	background-image: url(../image/large.jpg);
+	background-size:100% 100%;
+	position:relative;
+	color:white;
+	position: relative;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+header{
+	position: absolute;
+    top: 0;
+    width: 100%;
+    margin-top: 20px;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.texto-vertical-center > h2 {
+	font-size: 4.4rem;
+	padding: 0 23%;
+}
+.bg-overlay {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: table;
+}
+.texto-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.wr-blue {
+	background-color: rgba(82, 141, 210,.7);
+    width: 100%;
+    padding: 4% 0%;
+    position: absolute;
+    bottom: 0;
+}
+.texto-prueba > span {
+	font-size: 2.5rem;
+}
+
+.texto-prueba > a {
+	color: white;
+    font-size: 2rem;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 10px;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+.texto-prueba > a:hover {
+	text-decoration: none;
+    background-color: rgba(255,255,255,.2);
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+	padding: 15px 15px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: white;
+	background-color: rgba(2, 111, 187,.2);
+    transition: all .4s;
+}
+.menu-fixed {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0);
+    background: #3B5998;
+    margin: 0;
+}
+.menu-fixed > a:hover {
+    background-color: rgba(0, 0, 0, .5);
+    transition: all .4s;
+}
+/* SERVICIOS */
+
+.title {
+	display: inline-block;
+    padding-top: 3%;
+    color: #73B7FF;
+    font-size: 2.7rem;
+}
+.icon-services {
+	padding: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0px 3px 6px rgba(0,0,0,.2);
+    font-size: 2.7rem;
+}
+.pruebalo {
+	color: #73B7FF;
+}
+.gratis{
+	padding: 5%;
+}
+#separador {
+    padding: 4% 0%;
+    position: relative;
+}
+.img-separador > img {
+	position: absolute;
+    left: 45%;
+    top: 14%;
+    z-index: 1;
+}
+.text-left {
+	padding-left: 15%;
+}
+.ejemplo {
+	padding: 4% 0%;
+}
+.img-example {
+	width: 250px;
+    margin-top: -1%;
+}
+.text-example {
+	text-align: left;
+}
+.pd-l {
+	padding: 3%;
+}
+.flecha {
+	padding-left: 40%;
+}
+.back-cod {
+    background-image: url(../image/sec-2.jpg);
+    background-size: cover;
+    height: 450px;
+    padding-left: 3%;
+}
+#want .boton {
+    position: absolute;
+    transform: translateX(-50%);
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #50BDEA;
+    color: white;
+}
+.w-90{
+	width: 90%;
+}
+#ejemplo{
+	padding: 5% 0%;
+}
+#ejemplo a{
+	display: block;
+	margin-bottom: 10px;
+}
+#ejemplo p,a{
+	text-align: left;
+}
+.img-ejemplo{
+	width: 250px;
+    margin-top: -1%;
+}
+#want{
+	border-top:1px solid rgba(0,0,0,.1);
+	border-bottom:1px solid rgba(0,0,0,.1);
+	position: relative;
+}
+.w-96{
+	width: 96%;
+}
+#want .uno{
+	top:15%;
+}
+#want .dos{
+	top:40%;
+}
+#want .tres{
+	top:65%;
+}
+#want .cuatro{
+	margin-bottom:1%;
+}
+#want ul,#more ul{
+	padding: 0;
+	margin-left: 18px;
+}
+.pd-5{
+	padding: 2% 0% 2% 5%;
+}
+.negrita{
+	font-size: 2.5rem;
+}
+.azulito{
+	color:#73B7FF;
+	font-weight: 200;
+	font-size: 1.7rem;
+}
+#more img{
+	width: 100%;
+	display: block;
+}
+#more ul{
+	margin-left: 30px;
+}
+#more *{
+	padding-bottom: 2%;
+}
+#prueba2{
+	background-color:#74A3DB;
+	color:white;
+	padding:3% 0%;
+	text-align: center;
+}
+#prueba2 a{
+	padding:10px 20px; 
+}
+footer{
+	background-color: #2A3541;
+	color:white;
+	font-size: 1.5rem;
+	padding:4% 0%;
+}
+footer a{
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 50%;
+	margin-bottom: 15px;
+
+}
+footer a:hover{
+	text-decoration: none;
+	color:white;
+	background-color: rgba(116, 163, 219,.3);
+}
+footer .social{
+	font-size:35px;
+	margin-left: 30px;
+}
+footer p{
+	line-height: 2;
+}
+
