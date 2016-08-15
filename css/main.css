@@ -259,3 +259,12 @@ footer p{
 	line-height: 2;
 }
 
+/*contacto*/
+.caja{
+   border: solid 2px silver;
+   border-top:solid 7px #046BB8 ;
+   background-color: white;
+}
+.form{
+   padding: 0% 4% 2%;
+}
